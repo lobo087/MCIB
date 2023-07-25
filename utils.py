@@ -92,7 +92,7 @@ def get_page():
     </head>
     <body>
         <header>
-            <h1>Tratamiento de Datos</h1>
+            <h1>Tratamiento de Datos con Iván</h1>
         </header>
         <div class="container">
             <h2>Bienvenido a nuestra página de inicio</h2>
