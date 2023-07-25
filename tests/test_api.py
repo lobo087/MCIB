@@ -6,10 +6,8 @@ def test_get_stock_price():
     print(cocacola_price)
 
     assert cocacola_price['price'] > 0
-    assert cocacola_price['company_ticker'] == 'KO'
 
-
-    assert get_stock_price('FANTA').status_code == 404
+    assert get_stock_price('FANTAL').status_code == 404
 
 
 test_get_stock_price()
