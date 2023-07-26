@@ -1,4 +1,5 @@
 from api import get_stock_price
+from utils import get_last_price
 
 
 def test_get_stock_price():
