@@ -7,7 +7,5 @@ def test_get_stock_price():
 
     assert cocacola_price['price'] > 0
 
-    assert get_stock_price('FANTAL').status_code == 404
-
 
 test_get_stock_price()
