@@ -3,7 +3,7 @@ from utils import get_last_price
 
 
 def test_get_stock_price():
-    cocacola_price = get_last_price('KO').json
+    cocacola_price = get_last_price('KO')
     print(cocacola_price)
 
     assert cocacola_price['price'] > 0
