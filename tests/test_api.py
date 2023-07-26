@@ -6,7 +6,7 @@ def test_get_stock_price():
     cocacola_price = get_last_price('KO')
     print(cocacola_price)
 
-    assert cocacola_price['price'] > 0
+    assert cocacola_price > 0
 
 
 test_get_stock_price()
